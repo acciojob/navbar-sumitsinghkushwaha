@@ -1,1 +1,43 @@
 /*  your css code here. If applicable */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation-bar {
+    background-color: #6e072d;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    font-size: 18px;
+    padding: 18px 27px; /* Vertical and horizontal padding */
+    border-left: 2px solid white;
+    cursor: pointer;
+    transition: background-color 0.3s, cursor 0.3s;
+}
+
+li.no-left-border {
+    border-left: none;
+}
+
+li.no-right-border {
+    border-right: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li:hover {
+    background-color: #b90e4d;
+    cursor: pointer;
+}
